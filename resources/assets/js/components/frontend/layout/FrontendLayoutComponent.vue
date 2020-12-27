@@ -172,7 +172,7 @@ h6, .h6 {
     <div>
         <div class="website-masthead">
           <div class="container">
-              <a class="navbar-brand" href="#">Theatre Treat</a>
+              <router-link tag="a" to="/" class="navbar-brand" >Theatre Treat</router-link>
               <nav class="website-nav">
                 <router-link tag="a" to="/" :class="'website-nav-item'" >Home</router-link>
                 <router-link v-if="!this.userInfo" tag="a" to="/login" :class="'website-nav-item'" >Login</router-link>
