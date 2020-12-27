@@ -28,7 +28,7 @@ class AddMovieRequest extends FormRequest
             'genre' => 'required',
             'description' => 'required',
             'releasing_date' => 'required|date',
-            'file' => 'required|image|mimes:jpeg,bmp,jpg,png|max:250'
+            'file' => 'required|file|mimes:jpeg,bmp,jpg,png|max:250'
         ];
     }
 }
